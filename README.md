@@ -1,12 +1,12 @@
-# <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<title>Maaf Ya Sayang ❤️</title>
+<title>Maaf fajriku sayang❤️</title>
 
 <style>
 body {
-  background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  background: linear-gradient(to right, pink, lightcoral);
   text-align: center;
   font-family: Arial;
   padding-top: 80px;
@@ -14,13 +14,12 @@ body {
 
 h1 {
   color: white;
-  font-size: 36px;
+  font-size: 35px;
 }
 
 p {
   color: white;
   font-size: 20px;
-  margin: 15px;
 }
 
 button {
@@ -37,29 +36,18 @@ button:hover {
   background: hotpink;
   color: white;
 }
-
-.heart {
-  font-size: 50px;
-  animation: float 2s infinite;
-}
-
-@keyframes float {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-20px); }
-  100% { transform: translateY(0); }
-}
 </style>
 </head>
 
 <body>
 
-<div class="heart">❤️</div>
+<!-- EDIT DI SINI -->
+<h1>Maaf fajriku Sayangku 🥺❤️</h1>
 
-<h1>Maaf Ya Sayangku 🥺</h1>
-
-<p>Aku minta maaf karena tadi bikin kamu kesel...</p>
-<p>Aku janji bakal jadi lebih baik dan lebih jaga perasaan kamu 💕</p>
-<p>Aku sayang kamu lebih dari apapun 😘</p>
+<p>Maaf ya karena tadi bikin ki marah...</p>
+<p>tidak pamit pas mau berangkat kerja, tidak kiss ki juga huhu</p>
+<p>janji besok2 tidak kuulangmi, love u! 💕</p>
+<!-- SAMPAI SINI -->
 
 <button onclick="playMusic()">
 Klik Kalau Kamu Udah Maafin Aku 💌
@@ -72,7 +60,9 @@ Klik Kalau Kamu Udah Maafin Aku 💌
 <script>
 function playMusic(){
   document.getElementById("lagu").play();
-  alert("Makasih ya sayang 😭❤️ Aku janji gak ulangi lagi 😘");
+
+  // EDIT DI SINI
+  alert("Makasih ya sayang ❤️ Aku janji berubah 😘");
 }
 </script>
 
